@@ -71,18 +71,32 @@ p {
   padding: 12px 20px;
 }
 
-@media (max-width: 960px) {
+.icons {
+  font-size: 60px;
+}
+
+@media (max-width: 900px) {
+  body {
+    margin: 30px;
+  }
+
   h1 {
     font-size: 70px;
   }
   h2 {
     font-size: 30px;
   }
+  h3 {
+    margin-top: 60px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
   }
   .block {
-    margin: 20px;
+    margin: 10px;
+  }
+  .icons {
+    font-size: 30px;
   }
 }
