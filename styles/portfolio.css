@@ -99,4 +99,7 @@ p {
   .icons {
     font-size: 30px;
   }
+  .skills {
+    margin: 10px;
+  }
 }
