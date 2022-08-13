@@ -26,145 +26,249 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Emilys+Candy&family=Fredericka+the+Great&family=Gruppo&family=Handlee&family=Josefin+Slab:wght@200&family=Lexend+Deca:wght@300;400&family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@100;700&family=Square+Peg&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Emilys+Candy&family=Fredericka+the+Great&family=Gruppo&family=Handlee&family=Josefin+Slab:wght@200&family=Lexend+Deca:wght@300;400&family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@100;200;700&family=Square+Peg&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg nav-background">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/icon.svg" alt="" class="img-fluid" width="30" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+          </ul>
+          <span class="navbar-text mx-2"> Welcome to my page! </span>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
-      <h2>Hello! I am</h2>
-      <h1>Niloofar Navaiee.L</h1>
-      <h3 class="mt-3 mb-5">A newbie Front-end Developer based in Germany</h3>
-      <a href="#" class="btn btn-branding"> Contact Me</a>
+      <div class="headings">
+        <h2>Hello! I am</h2>
+        <h1>Niloofar Navaiee.L</h1>
+        <h3 class="mt-3 mb-5">A newbie Front-end Developer based in Germany</h3>
+        <a href="#" class="btn btn-branding"> Contact Me</a>
+      </div>
     </div>
 
     <div>
-      <div class="about-section block">
-        <h3 class="heading-titles">About</h3>
-        <h2>Who is Niloofar?</h2>
+      <div class="about-section borders" id="about">
+        <div class="block">
+          <h3 class="heading-titles">About</h3>
+          <h2 class="second-heading">Who is Niloofar?</h2>
 
-        <div class="container">
-          <div class="row">
-            <div class="col mt-5 text-muted">
-              <div class="project-description">
-                Hi! I am Niloofar and I am a newbie Front-End Developer. I'm
-                very passionate about bringing both the technical and visual
-                aspects of digital products to life. My interest in web
-                development started back in 2022 when I started to take SheCodes
-                classes in April. After taking the first courses I happily
-                jumped into the wonderful world of coding. Every step on the way
-                of learning and mastering new skills was exciting for me. As an
-                aspiring front-end developer I am excited to keep learning and
-                enhancing my skills to create well-designed and responsive web
-                pages and applications.
-                <br />
-                <br />
-                I have a MS in Astrophysics from La Sapienza University of Rome.
-                I then moved to Germany. I worked as a researcher for a time and
-                now I am working as a developer.
-                <br />
-                <a href="#" class="btn btn-branding mt-3"> View My Resume</a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 mt-5 text-muted">
+                <div class="project-description">
+                  Hi! I am Niloofar and I am a newbie Front-End Developer. I'm
+                  very passionate about bringing both the technical and visual
+                  aspects of digital products to life. My interest in web
+                  development started back in 2022 when I started to take
+                  SheCodes classes in April. After taking the first courses I
+                  happily jumped into the wonderful world of coding. Every step
+                  on the way of learning and mastering new skills was exciting
+                  for me. As an aspiring front-end developer I am excited to
+                  keep learning and enhancing my skills to create well-designed
+                  and responsive web pages and applications.
+                  <br />
+                  <br />
+                  I have a MS in Astrophysics from La Sapienza University of
+                  Rome. I then moved to Germany for work. I worked as a
+                  astrophysics researcher for a time and now I am working as a
+                  developer/Consultant. <br />
+
+                  <br />
+                  <br />
+                  <a href="#" class="btn btn-branding-outline mt-3">
+                    View My Resume</a
+                  >
+                </div>
               </div>
-            </div>
-            <div class="col mt-5">
-              <img src="" alt="" class="img-fluid" />
+              <div class="col-md-6 mt-5">
+                <img src="" alt="" class="img-fluid" />
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="skills-section borders" id="skill">
+        <div class="block">
+          <h3 class="heading-titles">Skills and Tools</h3>
+          <h2 class="second-heading">my toolbox and things I can do</h2>
+          <p class="text-muted mt-4">
+            The skills, tools and technologies I use to bring your products to
+            life:
+          </p>
+          <div class="container mt-5 mb-5">
+            <div class="row">
+              <div class="col">
+                <i class="fa-brands fa-html5 icons"></i>
+              </div>
+              <div class="col">
+                <i class="fa-brands fa-css3-alt icons"></i>
+              </div>
+              <div class="col">
+                <i class="fa-brands fa-js icons"></i>
+              </div>
+              <div class="col">
+                <i class="fa-brands fa-git-alt icons"></i>
+              </div>
+              <div class="col">
+                <i class="fa-brands fa-github icons"></i>
+              </div>
+              <div class="col">
+                <i class="fa-solid fa-tablet-screen-button icons"></i>
+              </div>
+               <div class="col">
+                <i class="fa-solid fa-code icons"></i>
+              </div>
 
-      <div class="skills-section block">
-        <h3 class="heading-titles">Skills and Tools</h3>
-        <h2>my toolbox and things I can do</h2>
-        <p class="text-muted mt-4">
-          The skills, tools and technologies I use to bring your products to
-          life:
-        </p>
-        <div class="container mt-5 mb-5">
-          <div class="row">
-            <div class="col-2">
-              <i class="fa-brands fa-html5 icons"></i>
+               <div class="col">
+              <i class="fa-brands fa-bootstrap icons"></i>
+
+              </div>
             </div>
-            <div class="col-2">
-              <i class="fa-brands fa-css3-alt icons"></i>
-            </div>
-            <div class="col-2">
-              <i class="fa-brands fa-js icons"></i>
-            </div>
-            <div class="col-2">
-              <i class="fa-brands fa-git-alt icons"></i>
-            </div>
-            <div class="col-2">
-              <i class="fa-brands fa-github icons"></i>
-            </div>
-            <div class="col-2">
-              <i class="fa-solid fa-tablet-screen-button icons"></i>
+            <div class="row mt-3">
+              <div class="col">HTML</div>
+              <div class="col ">CSS</div>
+              <div class="col">Javascript</div>
+              <div class="col">Git</div>
+              <div class="col">Github</div>
+              <div class="col">Responsive Websites</div>
+                <div class="col">VS Code </div>
+                <div class="col">Bootstrap </div>
+
             </div>
           </div>
-          <div class="row mt-3">
-            <div class="col-2">HTML</div>
-            <div class="col-2">CSS</div>
-            <div class="col-2">Javascript</div>
 
-            <div class="col-2">Git</div>
-            <div class="col-2">Github</div>
-            <div class="col-2">Responsive Websites</div>
-          </div>
+          <h3>Currently Working on:</h3>
+          <p class="text-muted">
+            Working on improving my skills in JavaScript and React and attending
+            the pro React Shecodes workshop!
+          </p>
         </div>
-
-        <h3>Currently Working on:</h3>
-        <p class="text-muted">
-          Working on improving my skills in JavaScript and React and attending
-          the pro React Shecodes workshop!
-        </p>
       </div>
-      <div class="projects-section block">
-        <h3 class="heading-titles">Work</h3>
-        <h2 class="mb-5">Projects I've Worked on</h2>
+      <div class="projects-section borders" id="project">
+        <div class="block">
+          <h3 class="heading-titles">Work</h3>
+          <h2 class="mb-5 second-heading">Projects I've Worked on</h2>
 
-        <div class="container">
-          <div class="row m-4">
-            <div class="col">
-              <div class="project-description">
-                <h4>Weather App Project</h4>
-                <p class="text-muted">
-                  This is my project this is my project this is my project this
-                  is my project this is my project This is my project this is my
-                  project this is my project this is my project this is my
-                  project
-                </p>
-                <a href="#" class="btn btn-branding-outline m-4">
-                  Learn More
-                </a>
+          <div class="container">
+            <div class="row m-4">
+              <div class="col">
+                <div class="project-description">
+                  <h4>Weather App Project</h4>
+                  <p class="text-muted">
+                    This is my project this is my project this is my project
+                    this is my project this is my project This is my project
+                    this is my project this is my project this is my project
+                    this is my project
+                  </p>
+                  <a
+                    href="https://www.shecodes.io/workshops/shecodes-plus-85dfa285-71e9-4187-bd1a-0892648f2d6d/projects/941585"
+                    target="_blank"
+                    class="btn btn-branding-outline m-4"
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-5 d-none d-lg-block">
+                <img
+                  src="images/weather app.png"
+                  class="img-fluid project-images"
+                  alt=""
+                />
+              </div>
+            </div>
+<br>
+<div class="row m-4">
+   <div class="col-5 d-none d-lg-block">
+                <img
+                  src="images/meditation project.png"
+                  class="img-fluid project-images"
+                  alt=""
+                />
+              </div>
+              <div class="col">
+                <div class="project-description">
+                  <h4>Meditation Project</h4>
+                  <p class="text-muted">
+                    This is my project this is my project this is my project
+                    this is my project this is my project This is my project
+                    this is my project this is my project this is my project
+                    this is my project
+                  </p>
+                  <a
+href="https://www.shecodes.io/workshops/shecodes-basics-f10c7b15-d969-4093-a572-a3ca8abd5cac/projects/820601"                    target="_blank"
+                    class="btn btn-branding-outline m-4"
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>   
+            </div>
+            <br>
+ <div class="row m-4">
+              <div class="col">
+                <div class="project-description">
+                  <h4>Dictionary App Project</h4>
+                  <p class="text-muted">
+                    This is my project this is my project this is my project
+                    this is my project this is my project This is my project
+                    this is my project this is my project this is my project
+                    this is my project
+                  </p>
+                  <a
+               href="https://www.shecodes.io/graduates/40708-niloofar-navaieelavasani"                  
+              target="_blank"
+                    class="btn btn-branding-outline m-4"
+                  >
+                    Comming Soon!
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-5 d-none d-lg-block">
+                <img
+                  src="images/weather app.png"
+                  class="img-fluid project-images"
+                  alt=""
+                />
               </div>
             </div>
 
-            <div class="col-5 d-none d-lg-block">
-              <img src="images/weather app.png" class="img-fluid" alt="" />
-            </div>
-          </div>
 
-          <div class="row mt-5 mx-4">
-            <div class="col-5 d-none d-lg-block">
-              <img
-                src="images/meditation project.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col">
-              <div class="project-description">
-                <h4 class="m-4">Meditation Project</h4>
-                <p class="m-4 text-muted">
-                  This is my project this is my project this is my project this
-                  is my project this is my project This is my project this is my
-                  project this is my project this is my project this is my
-                  project
-                </p>
-                <a href="#" class="btn btn-branding-outline m-4">
-                  Learn More
-                </a>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-/*  font-family: 'Amatic SC', cursive;
+/*  
 
     font-family: 'Fredericka the Great', cursive;
     
@@ -8,7 +8,6 @@
     font-family: 'Josefin Slab', serif;
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Playfair Display', serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Square Peg', cursive;
 
     */
@@ -36,8 +35,12 @@ p {
   line-height: 27px;
 }
 
+.second-heading {
+  color: #f96d00;
+}
+
 .block {
-  margin: 200px;
+  margin: 150px 200px;
 }
 
 .name-style {
@@ -51,11 +54,24 @@ p {
 .hero {
   text-align: center;
   padding: 160px 20px;
+  background: url("../images/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  border: 2px solid black;
+}
+
+.headings {
+  margin: 50px 150px;
+  padding: 30px 30px;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 
 .btn-branding {
-  background-color: var(--branding-color);
+  background-color: #fa8730;
   border-radius: 4px;
+  border-color: #f96d00;
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -73,6 +89,41 @@ p {
 
 .icons {
   font-size: 60px;
+}
+
+.nav-background {
+  background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+  font-family: "Fredericka the Great", cursive;
+  font-size: larger;
+}
+
+.borders {
+  border-top: 3px solid #c2b3d8;
+  border-left: 3px solid #a59ab6;
+  border-right: 3px solid #a59ab6;
+}
+
+.about-section {
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  padding: 20px;
+  border-left: 3px solid #a59ab6;
+  border-right: 3px solid #a59ab6;
+}
+
+.skills-section {
+  background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+  padding: 20px;
+}
+
+.projects-section {
+  background: linear-gradient(-20deg, #fbfcdb 0%, #e9defa 100%);
+  padding: 20px;
+  border-bottom: 3px solid #c2b3d8;
+}
+
+.project-images {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 1px rgb(141, 138, 138);
 }
 
 @media (max-width: 900px) {
@@ -99,7 +150,15 @@ p {
   .icons {
     font-size: 30px;
   }
-  .skills {
-    margin: 10px;
+  .headings {
+    border: none;
+    margin: auto;
+    padding: auto;
+  }
+  .hero {
+    background: url("../images/background2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
