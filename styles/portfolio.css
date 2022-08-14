@@ -1,19 +1,6 @@
-/*  
-
-    font-family: 'Fredericka the Great', cursive;
-    
-    font-family: 'Gruppo', cursive;
-    
-    font-family: 'Handlee', cursive;
-    font-family: 'Josefin Slab', serif;
-    font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Square Peg', cursive;
-
-    */
-
 :root {
   --branding-color: blueviolet;
+  --secondary-color: #f96d00;
 }
 
 h1 {
@@ -36,11 +23,11 @@ p {
 }
 
 .second-heading {
-  color: #f96d00;
+  color: var(--secondary-color);
 }
 
 .block {
-  margin: 150px 200px;
+  margin: 130px 170px;
 }
 
 .name-style {
@@ -72,7 +59,6 @@ p {
 .btn-branding {
   background-color: #fa8730;
   border-radius: 4px;
-  border-color: #f96d00;
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -138,6 +124,11 @@ p {
   margin-left: 70px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px 1px rgb(141, 138, 138);
+}
+
+.project-icons {
+  font-size: 25px;
+  margin-top: 10px;
 }
 
 @media (max-width: 900px) {
