@@ -53,7 +53,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 150px 20px;
   background: url("../images/background.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ p {
 }
 
 .headings {
-  margin: 50px 150px;
+  margin: 30px 150px;
   padding: 30px 30px;
   border: 3px solid black;
   border-radius: 5px;
@@ -133,6 +133,12 @@ p {
   box-shadow: 2px 2px 5px 1px rgb(141, 138, 138);
 }
 
+.me-image {
+  margin-left: 70px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 1px rgb(141, 138, 138);
+}
+
 @media (max-width: 900px) {
   body {
     margin: 30px;
@@ -155,7 +161,7 @@ p {
     margin: 10px;
   }
   .icons {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .icon-description {
@@ -173,5 +179,18 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .avatar {
+    width: 35px;
+  }
+
+  .nav-background {
+    font-size: smaller;
+  }
+
+  .me-image {
+    display: block;
+    margin: auto;
   }
 }
