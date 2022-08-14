@@ -90,11 +90,14 @@ p {
 .icons {
   font-size: 60px;
 }
+.icon-description {
+  margin-top: 20px;
+}
 
 .nav-background {
   background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
   font-family: "Fredericka the Great", cursive;
-  font-size: larger;
+  font-size: 20px;
 }
 
 .borders {
@@ -119,6 +122,10 @@ p {
   background: linear-gradient(-20deg, #fbfcdb 0%, #e9defa 100%);
   padding: 20px;
   border-bottom: 3px solid #c2b3d8;
+}
+
+.contact-section {
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
 .project-images {
@@ -150,6 +157,12 @@ p {
   .icons {
     font-size: 30px;
   }
+
+  .icon-description {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
   .headings {
     border: none;
     margin: auto;
