@@ -1,6 +1,7 @@
 :root {
-  --branding-color: blueviolet;
+  --branding-color: rgb(147, 65, 223);
   --secondary-color: #f96d00;
+  --third-color: #fa8730;
 }
 
 h1 {
@@ -101,7 +102,7 @@ p {
 }
 
 .skills-section {
-  background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+  background: linear-gradient(to top, #c4c5c7 0%, #fbfcdb 52%, #ebebeb 100%);
   padding: 20px;
 }
 
@@ -129,6 +130,33 @@ p {
 .project-icons {
   font-size: 25px;
   margin-top: 10px;
+}
+
+footer {
+  margin: 20px 0px;
+}
+
+.final-note {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 27px;
+  color: #9582b1;
+}
+
+.social-links a {
+  font-size: 25px;
+  margin: 10px 30px;
+  padding: 5px 14px;
+  color: #a59ab6;
+  border-radius: 50%;
+  border: 1px solid #a59ab6;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+  transition: all 150ms ease-in-out;
 }
 
 @media (max-width: 900px) {
