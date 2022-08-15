@@ -28,7 +28,7 @@ p {
 }
 
 .block {
-  margin: 130px 170px;
+  margin: 150px 170px;
 }
 
 .name-style {
@@ -47,7 +47,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 
-  border: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .headings {
@@ -89,20 +89,16 @@ p {
 }
 
 .borders {
-  border-top: 3px solid #c2b3d8;
-  border-left: 3px solid #a59ab6;
-  border-right: 3px solid #a59ab6;
+  border-bottom: 3px solid #a59ab6;
 }
 
 .about-section {
   background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
   padding: 20px;
-  border-left: 3px solid #a59ab6;
-  border-right: 3px solid #a59ab6;
 }
 
 .skills-section {
-  background: linear-gradient(to top, #c4c5c7 0%, #fbfcdb 52%, #ebebeb 100%);
+  background: linear-gradient(to top, #fbfcdb 0%, #e9defa 52%, #ebebeb 100%);
   padding: 20px;
 }
 
@@ -114,6 +110,7 @@ p {
 
 .contact-section {
   background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  border-bottom: 3px solid #c2b3d8;
 }
 
 .project-images {
@@ -156,6 +153,18 @@ footer {
 .social-links a:hover {
   color: white;
   background: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+
+.git-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.git-link:hover {
+  color: blueviolet;
+  text-decoration: underline;
+
   transition: all 150ms ease-in-out;
 }
 
